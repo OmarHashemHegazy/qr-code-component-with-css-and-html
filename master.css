@@ -1,0 +1,50 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container{
+    height: 100vh;
+    position: relative;
+    background-color: hsl(212, 45%, 89%);
+    border-radius: 10px;
+}
+
+.content{
+    width: 250px;
+    height: 400px;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.content img{
+    width: 230px;
+    height: 220px;
+    position: absolute;
+    padding: 10px;
+    left: 0px;
+    border-radius: 20px;
+}
+
+.container .paragraphs h1{
+    bottom: -235px;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.container .paragraphs p{
+    font-size: 15px;
+    position: relative;
+    bottom: -230px;
+    padding: 5px 10px 0 10px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
